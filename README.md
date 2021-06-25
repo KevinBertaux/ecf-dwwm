@@ -1,13 +1,14 @@
 # ecf-dwwm
 
 <!--
-	Titre :			ECF - DWWM 2021
-	Autheur : 		Kevin Bertaux
+	Titre :			ECF - DWWM
+	Autheur : 		Kevin BERTAUX
+	Contributeur :	Kevin BERTAUX
 	Création :		24/06/2021
-	Modification :	24/06/2021
+	Modification :	25/06/2021
 -->
 
-<h1 align="center">Hi 👋, I'm Kevin Bertaux</h1>
+<h1 align="center">Hi 👋, I'm Kevin BERTAUX</h1>
 <h3 align="center">A passionate fullstack developer from France</h3>
 
 - 🔭 I’m currently working on [many projects](https://github.com/KevinBertaux)

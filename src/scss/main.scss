@@ -1,0 +1,27 @@
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+/*@import 'vendors';*/
+
+@import 'base/reset';
+@import 'base/helpers';
+@import 'base/fonts';
+@import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/forms';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/cards';
+
+@import 'pages/home';
+@import 'pages/formation';
+@import 'pages/students';
+@import 'pages/news';
+@import 'pages/contact';
+@import 'pages/legal';
+@import 'pages/privacy';
+
+/*@import 'themes';*/
