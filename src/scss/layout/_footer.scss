@@ -1,0 +1,15 @@
+.footer .container {
+	display: flex;
+	padding-top: 3.8rem;
+	padding-bottom: 3.8rem;
+}
+
+.address-list {
+	font-weight: $fw-medium;
+	font-size: 2rem;
+	line-height: 1.8;
+}
+
+.address-item:first-child {
+	font-weight: $fw-semi;
+}

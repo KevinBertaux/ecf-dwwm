@@ -1,4 +1,15 @@
 body {
-	color: var(--clr-primary);
-	background-color: #ddd;
+	background-color: #bada55;  // /!\ DEV A ENLEVER /!\
+	color: $clr-primary;
+	font-family: $ff-body;
+	font-weight: $fw-body;
+}
+
+a {
+	color: $clr-secondary;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
 }

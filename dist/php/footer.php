@@ -1,9 +1,11 @@
+</main>
+
 <footer id="footer" class="footer">
 <div class="container">
 	<address class="address">
 		<ul class="address-list" role="list">
 			<li class="address-item">
-				<a href="../index.php" class="address-link">Développeur Web et Web Mobile</a>
+				<a href="index.php" class="address-link">Développeur Web et Web Mobile</a>
 			</li>
 			<li class="address-item">
 				<a href="https://www.cefim.eu/" class="address-link" target="_blank">CEFIM</a>

@@ -1,0 +1,44 @@
+.header, footer {
+	color: $clr-secondary;
+	background-color: $clr-accent;
+}
+
+.site-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 2.6rem;
+	padding-bottom: 2.6rem;
+}
+
+.logo-text {
+	font-family: $ff-title;
+	font-weight: $fw-bold;
+	font-size: 4.8rem;
+	line-height: 1;
+}
+
+.logo-link:hover, .nav-link:focus, .nav-link:hover, .nav-link:focus {
+	text-decoration: none;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-item {
+	font-weight: $fw-semi;
+	font-size: 2rem;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.nav-link {
+	padding: 1rem 2rem;
+	text-align: center;
+}
+
+.nav-link:hover, .nav-link:focus {
+	color: $clr-accent;
+	background-color: $clr-secondary;
+}

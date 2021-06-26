@@ -16,27 +16,29 @@
 
 	<header id="header" class="header">
 		<div class="container">
-			<div class="logo">
-				<p class=logo-text>DWWM</p>
+			<div class="site-nav">
+				<p class=logo-text><a class="logo-link" href="index.php">DWWM</a></p>
 				<nav class="nav-menu">
 					<ul class="nav-list" role="list">
 						<li class="nav-item">
-							<a href="#" class="nav-link">Accueil</a>
+							<a href="index.php" class="nav-link">Accueil</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">La formation</a>
+							<a href="formation.php" class="nav-link">La formation</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Les étudiants</a>
+							<a href="students.php" class="nav-link">Les étudiants</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Actualités</a>
+							<a href="news.php" class="nav-link">Actualités</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Nous contacter</a>
+							<a href="contact.php" class="nav-link">Nous contacter</a>
 						</li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	</header>
+
+	<main class="site-main">
