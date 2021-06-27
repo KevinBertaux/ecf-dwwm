@@ -1,5 +1,7 @@
 .footer .container {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	padding-top: 3.8rem;
 	padding-bottom: 3.8rem;
 }
@@ -12,4 +14,37 @@
 
 .address-item:first-child {
 	font-weight: $fw-semi;
+}
+
+.legal-list {
+	display: flex;
+	column-gap: 2rem;
+}
+
+.legal-item{
+	font-weight: $fw-medium;
+	font-size: 1.6rem;
+	line-height: 2.25;
+}
+
+.social-list {
+	display: flex;
+	column-gap: 5.6rem;
+}
+
+.social-item {
+	width: 3.6rem;
+	height: 3.6rem;
+	display: flex;
+	align-items: center;
+}
+
+.social-link {
+	display: block;
+	width: 100%;
+}
+
+.social-image {
+	margin-left: auto;
+	margin-right: auto;
 }
