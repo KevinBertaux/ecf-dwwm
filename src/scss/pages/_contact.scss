@@ -1,0 +1,28 @@
+.contact-title {
+	margin-bottom: 14rem;
+}
+
+input, label, textarea {
+	display: block;
+	width: 100%;
+}
+
+input, textarea {
+	border: 0;
+	border-bottom: 1px solid $clr-border;
+}
+
+.field-list{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 4.5rem 3.2rem;
+	margin-bottom: 2rem;
+}
+
+.field-item:last-child {
+	grid-column: 1 / span 2;
+}
+
+.contact-button {
+	margin-bottom: 4rem;
+}
