@@ -1,0 +1,22 @@
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0;
+	color: $clr-secondary;
+	background-color: $clr-accent;
+}
+
+.btn p {
+	padding-right: 1.6rem;
+}
+
+.btn img {
+	width: 2rem;
+	height: 2rem;
+}
+
+.contact-button {
+	width: 18rem;
+	border-radius: .4rem;
+}

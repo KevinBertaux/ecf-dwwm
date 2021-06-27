@@ -2,17 +2,37 @@
 	margin-bottom: 14rem;
 }
 
-input, label, textarea {
+.contact-form {
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+label,
+textarea {
 	display: block;
 	width: 100%;
 }
 
-input, textarea {
+label, [placeholder] {
+	padding-bottom: 1rem;
+}
+
+input,
+textarea {
 	border: 0;
 	border-bottom: 1px solid $clr-border;
 }
 
-.field-list{
+textarea {
+	resize: none;
+}
+
+textarea:hover, textarea:focus {
+	resize: vertical;
+}
+
+.field-list {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 4.5rem 3.2rem;
@@ -24,5 +44,10 @@ input, textarea {
 }
 
 .contact-button {
+	align-self: end;
 	margin-bottom: 4rem;
+}
+
+.contact-button p {
+	margin-bottom: 0;;
 }
