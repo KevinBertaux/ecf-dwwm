@@ -2,3 +2,12 @@ header, main, footer {
 	display: flex;
 	justify-content: center;
 }
+
+h2, .h2-like {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+p {
+	padding-bottom: 4rem;
+}

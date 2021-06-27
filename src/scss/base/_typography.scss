@@ -1,8 +1,16 @@
 body {
-	background-color: #bada55;  // /!\ DEV A ENLEVER /!\
 	color: $clr-primary;
 	font-family: $ff-body;
 	font-weight: $fw-body;
+}
+
+h2, .h2-like {
+	text-align: center;
+}
+
+p {
+	font-size: 2rem;
+	line-height: 1.5;
 }
 
 a {
