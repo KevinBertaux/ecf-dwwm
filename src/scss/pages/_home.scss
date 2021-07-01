@@ -1,0 +1,40 @@
+.hero {
+	width: 100%;
+	background-image: url("../img/accueil_background.webp");
+	object-fit: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.hero .container {
+	display: flex;
+	justify-content: end;
+}
+
+.title-card {
+	background-color: $clr-transparent;
+	margin-top: 24rem;
+	margin-bottom: 12rem;
+	padding: 2.5rem;
+}
+
+.hero-title {
+	font-family: $ff-title;
+	font-weight: $fw-bold;
+	font-size: 7.2rem;
+	line-height: 1.2;
+	text-align: left;
+	color: $clr-secondary;
+	padding-bottom: 2.5rem;
+}
+
+.cta-list {
+	display: flex;justify-content: end;
+}
+
+.cta-link {
+	font-size: 4rem;
+	font-weight: $fw-semi;
+	padding: 2rem 3rem;
+	border: .1rem solid $clr-border;
+}
