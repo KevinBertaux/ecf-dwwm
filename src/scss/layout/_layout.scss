@@ -1,9 +1,17 @@
-header, main, footer {
+header,
+main,
+footer {
 	display: flex;
 	justify-content: center;
 }
 
-h2, .h2-like {
+main {
+	flex-direction: column;
+	align-items: center;
+}
+
+h2,
+.h2-like {
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 }

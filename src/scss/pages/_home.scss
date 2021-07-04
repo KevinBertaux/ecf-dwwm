@@ -29,12 +29,20 @@
 }
 
 .cta-list {
-	display: flex;justify-content: end;
+	display: flex;
+	justify-content: end;
 }
 
 .cta-link {
 	font-size: 4rem;
 	font-weight: $fw-semi;
 	padding: 2rem 3rem;
-	border: .1rem solid $clr-border;
+	border: 0.1rem solid $clr-border;
+}
+
+.news-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3.2rem;
+	margin-bottom: 4rem;
 }

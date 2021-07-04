@@ -14,7 +14,8 @@ textarea {
 	width: 100%;
 }
 
-label, [placeholder] {
+label,
+[placeholder] {
 	padding-bottom: 1rem;
 }
 
@@ -28,7 +29,8 @@ textarea {
 	resize: none;
 }
 
-textarea:hover, textarea:focus {
+textarea:hover,
+textarea:focus {
 	resize: vertical;
 }
 
@@ -49,5 +51,5 @@ textarea:hover, textarea:focus {
 }
 
 .contact-button p {
-	margin-bottom: 0;;
+	margin-bottom: 0;
 }

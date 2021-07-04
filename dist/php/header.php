@@ -17,7 +17,9 @@
 	<header id="header" class="header">
 		<div class="container">
 			<div class="site-nav">
-				<p class=logo-text><a class="logo-link" href="index.php">DWWM</a></p>
+				<p class=logo-text>
+					<a class="logo-link" href="index.php">DWWM</a>
+				</p>
 				<nav class="nav-menu">
 					<ul class="nav-list" role="list">
 						<li class="nav-item">
