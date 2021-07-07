@@ -16,12 +16,16 @@
 	font-weight: $fw-semi;
 }
 
+.address-link {
+	font-size: 2rem;
+}
+
 .legal-list {
 	display: flex;
 	column-gap: 2rem;
 }
 
-.legal-item {
+.legal-link {
 	font-weight: $fw-medium;
 	font-size: 1.6rem;
 	line-height: 2.25;

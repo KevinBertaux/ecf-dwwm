@@ -40,9 +40,101 @@
 	border: 0.1rem solid $clr-border;
 }
 
+/* News */
 .news-list {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3.2rem;
 	margin-bottom: 4rem;
+}
+
+.news-content {
+	padding-left: 1.6rem;
+	padding-right: 1.6rem;
+}
+
+.news-image {
+	margin-bottom: 2.4rem;
+}
+
+.news-date {
+	display: flex;
+	align-items: center;
+}
+
+.calendar {
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-right: 1rem;
+}
+
+.news-title {
+	padding-bottom: 1.6rem;
+}
+
+.news-desc {
+	margin-bottom: 2.4rem;
+}
+
+/* Students */
+.students {
+	width: 100%;
+	background-color: $clr-accent;
+	display: flex;
+	justify-content: center;
+}
+
+.student-title,
+.student-name {
+	color: $clr-secondary;
+}
+
+.student-list {
+	display: grid;
+	gap: 3.2rem;
+	grid-template-columns: repeat(4, 1fr);
+	margin-bottom: 4.2rem;
+}
+
+.student-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.student-name {
+	font-weight: $fw-semi;
+	font-size: 2.4rem;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+
+.student-avatar {
+	padding-bottom: 2rem;
+}
+
+.student-link {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+/* Formation */
+.formation-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3.2rem;
+	margin-bottom: 4rem;
+}
+
+.formation-image {
+	margin-bottom: 4rem;
+}
+
+.formation-content {
+	padding-left: 1.6rem;
+	padding-right: 1.6rem;
+}
+
+.formation-title {
+	padding-bottom: 4rem;
 }

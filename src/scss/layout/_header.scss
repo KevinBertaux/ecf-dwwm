@@ -24,7 +24,7 @@
 }
 
 .logo-link:hover,
-.nav-link:focus,
+.logo-link:focus,
 .nav-link:hover,
 .nav-link:focus {
 	text-decoration: none;
@@ -42,8 +42,11 @@
 }
 
 .nav-link {
-	padding: 1rem 2rem;
+	font-size: 2rem;
 	text-align: center;
+	padding: 1rem 2rem;
+	transition-property: color, background-color;
+	transition-duration: 0.3s;
 }
 
 .nav-link:hover,

@@ -1,4 +1,5 @@
-<?php $page = 'privacy'; ?>
+<?php $page = 'privacy';
+$title = 'Politique de confidentialité'; ?>
 
 <?php include('php/header.php'); ?>
 

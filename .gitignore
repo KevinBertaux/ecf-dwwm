@@ -38,6 +38,8 @@ Thumbs.db
 
 # OTHERS #
 ##########
+.idea
+.vs
 .vscode
 gulpfile.js
 package.json

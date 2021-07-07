@@ -1,4 +1,5 @@
-<?php $page = 'legal'; ?>
+<?php $page = 'legal';
+$title = 'Mentions légales'; ?>
 
 <?php include('php/header.php'); ?>
 

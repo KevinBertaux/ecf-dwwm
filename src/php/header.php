@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/main.min.css">
 	<title><?php if (isset($title)) {
 				echo $title . ' - ';
-			} ?>ECF - DWWM</title>
+			} ?>DWWM</title>
 </head>
 
 <body>
