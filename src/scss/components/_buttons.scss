@@ -3,6 +3,7 @@
 	justify-content: center;
 	align-items: center;
 	border: 0;
+	border-radius: 0 0 0.4rem 0.4rem;
 	color: $clr-secondary;
 	background-color: $clr-accent;
 	padding-top: 1rem;
@@ -22,4 +23,39 @@
 .contact-button {
 	width: 18rem;
 	border-radius: 0.4rem;
+}
+
+.page-button-list {
+	display: flex;
+	column-gap: 2rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.page-button-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-btn {
+	background-color: $clr-secondary;
+	color: $clr-accent;
+	display: block;
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 1.75;
+	font-weight: $fw-medium;
+	border: 1px solid $clr-accent;
+	border-radius: 5px;
+	width: 3rem;
+	height: 3rem;
+	transition: 0.3s;
+}
+
+.page-btn:hover,
+.page-btn:focus {
+	background-color: $clr-accent;
+	color: $clr-secondary;
+	text-decoration: none;
 }

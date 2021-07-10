@@ -62,19 +62,19 @@ $title = 'Formation'; ?>
 
 		<ul role="list" class="page-button-list">
 			<li class="page-button-item">
-				<p class="page-button-text"><<</p>
+				<a href="#" class="page-button-link page-btn"><<</a>
 			</li>
 			<li class="page-button-item">
-				<p class="page-button-text">1</p>
+				<a href="#" class="page-button-link page-btn">1</a>
 			</li>
 			<li class="page-button-item">
-				<p class="page-button-text">2</p>
+				<a href="#" class="page-button-link page-btn">2</a>
 			</li>
 			<li class="page-button-item">
-				<p class="page-button-text">3</p>
+				<a href="#" class="page-button-link page-btn">3</a>
 			</li>
 			<li class="page-button-item">
-				<p class="page-button-text">>></p>
+				<a href="#" class="page-button-link page-btn">>></a>
 			</li>
 		</ul>
 	</div>

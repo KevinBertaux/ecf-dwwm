@@ -1,0 +1,27 @@
+.students-page .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.student-page-title {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.student-item:hover,
+.student-item:focus-within {
+	outline: 0.1rem solid $clr-accent;
+}
+
+.student-page-name {
+	font-size: 2.4rem;
+	font-weight: $fw-semi;
+	margin-bottom: 2rem;
+}
+
+.student-page-link {
+	color: $clr-accent;
+	font-size: 1.6rem;
+	text-decoration: underline;
+}
