@@ -19,3 +19,12 @@ h2,
 p {
 	margin-bottom: 4rem;
 }
+
+.formation-page .container,
+.students-page .container,
+.news-page .container,
+.send-contact .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

@@ -3,7 +3,7 @@ $title = 'Formation'; ?>
 
 <?php include('php/header.php'); ?>
 
-<section id="formation" class="formation">
+<section id="formation-page" class="formation-page">
 	<div class="container">
 		<h1 class="formation-title h2-like">La formation</h1>
 		<div class="container-narrower">
