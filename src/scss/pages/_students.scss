@@ -25,3 +25,39 @@ Malheureusement ":has" n'est pas implémenté (caniuse 0%).
 	font-size: 1.6rem;
 	text-decoration: underline;
 }
+
+.student-detail-main {
+	display: flex;
+	flex-direction: column;
+}
+
+.student-detail-image {
+	width: fit-content;
+	height: auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.student-detail-name {
+	margin-bottom: 4rem;
+}
+
+.student-detail-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 3.6rem;
+}
+
+.student-detail-item:last-child {
+	grid-column: 1/-1;
+}
+
+.student-detail-item-title {
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+.student-detail-item:last-child p{
+	font-size: 2.4rem;
+}
