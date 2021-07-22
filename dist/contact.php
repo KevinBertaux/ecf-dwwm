@@ -22,7 +22,7 @@ $title = 'Contactez-nous'; ?>
 				</li>
 			</ul>
 			<button class="contact-button btn submit-button">
-				<p>Envoyer</p>
+				Envoyer
 				<img src="img/ico_arrow_right.svg" alt="Une icone de flèche vers la droite">
 			</button>
 		</form>

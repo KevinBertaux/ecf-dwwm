@@ -48,10 +48,13 @@ textarea:focus {
 .contact-button {
 	align-self: end;
 	margin-bottom: 4rem;
+	transition: 0.3s;
 }
 
-.contact-button p {
-	margin-bottom: 0;
+.contact-button:hover,
+.contact-button:focus {
+	transform: scale(1.05);
+	text-decoration: underline;
 }
 
 .send-contact img{

@@ -25,7 +25,7 @@ $title = 'Accueil'; ?>
 				<div class="news-content">
 					<div class="news-date">
 						<img src="img/ico_calendar.svg" alt="L'icone d'un calendrier" class="calendar">
-						<time class="news-date">12/02/2021</time>
+						<time class="news-date" datetime="2021-02-12">12/02/2021</time>
 					</div>
 					<h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
 					<p class="news-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
@@ -37,7 +37,7 @@ $title = 'Accueil'; ?>
 				<div class="news-content">
 					<div class="news-date">
 						<img src="img/ico_calendar.svg" alt="L'icone d'un calendrier" class="calendar">
-						<time class="news-date">12/02/2021</time>
+						<time class="news-date" datetime="2021-02-12">12/02/2021</time>
 					</div>
 					<h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
 					<p class="news-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
@@ -49,7 +49,7 @@ $title = 'Accueil'; ?>
 				<div class="news-content">
 					<div class="news-date">
 						<img src="img/ico_calendar.svg" alt="L'icone d'un calendrier" class="calendar">
-						<time class="news-date">12/02/2021</time>
+						<time class="news-date" datetime="2021-02-12">12/02/2021</time>
 					</div>
 					<h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
 					<p class="news-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
@@ -88,28 +88,28 @@ $title = 'Accueil'; ?>
 	</div>
 </section>
 
-<section id="formation" class="formation"></section>
-<div class="container">
-	<h2 class="h1-like">Les modules de la formation</h2>
-	<ul class="formation-list" role="list">
-		<li class="formation-item card">
-			<img src="img/photo_code_html.webp" alt="Photo" class="formation-image">
-			<div class="formation-content">
-				<h3 class="formation-title">Module HTML/CSS</h3>
-				<p class="formation-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-			</div>
-			<a href="formation_detail.php" class="formation-link btn">Lire la suite<img src="img/ico_arrow_right.svg" alt="Une icone de flèche vers la droite"></a>
-		</li>
-		<li class="formation-item card">
-			<img src="img/photo_custom_keyboard.webp" alt="" class="formation-image">
-			<div class="formation-content">
-				<h3 class="formation-title">Module JavaScript</h3>
-				<p class="formation-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
-			</div>
-			<a href="formation_detail.php" class="formation-link btn">Lire la suite<img src="img/ico_arrow_right.svg" alt="Une icone de flèche vers la droite"></a>
-		</li>
-	</ul>
-</div>
+<section id="formation" class="formation">
+	<div class="container">
+		<h2 class="h1-like">Les modules de la formation</h2>
+		<ul class="formation-list" role="list">
+			<li class="formation-item card">
+				<img src="img/photo_code_html.webp" alt="Photo" class="formation-image">
+				<div class="formation-content">
+					<h3 class="formation-title">Module HTML/CSS</h3>
+					<p class="formation-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
+				</div>
+				<a href="formation_detail.php" class="formation-link btn">Lire la suite<img src="img/ico_arrow_right.svg" alt="Une icone de flèche vers la droite"></a>
+			</li>
+			<li class="formation-item card">
+				<img src="img/photo_custom_keyboard.webp" alt="" class="formation-image">
+				<div class="formation-content">
+					<h3 class="formation-title">Module JavaScript</h3>
+					<p class="formation-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
+				</div>
+				<a href="formation_detail.php" class="formation-link btn">Lire la suite<img src="img/ico_arrow_right.svg" alt="Une icone de flèche vers la droite"></a>
+			</li>
+		</ul>
+	</div>
 </section>
 
 <?php include('php/footer.php'); ?>

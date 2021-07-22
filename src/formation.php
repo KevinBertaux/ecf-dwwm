@@ -62,7 +62,7 @@ $title = 'Formation'; ?>
 
 		<ul role="list" class="page-button-list">
 			<li class="page-button-item">
-				<a href="#" class="page-button-link page-btn"><<</a>
+				<a href="#" class="page-button-link page-btn">&lt;&lt;</a>
 			</li>
 			<li class="page-button-item">
 				<a href="#" class="page-button-link page-btn">1</a>
@@ -74,7 +74,7 @@ $title = 'Formation'; ?>
 				<a href="#" class="page-button-link page-btn">3</a>
 			</li>
 			<li class="page-button-item">
-				<a href="#" class="page-button-link page-btn">>></a>
+				<a href="#" class="page-button-link page-btn">&gt;&gt;</a>
 			</li>
 		</ul>
 	</div>
