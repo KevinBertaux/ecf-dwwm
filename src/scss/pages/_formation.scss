@@ -3,3 +3,20 @@
 	font-size: 2.4rem;
 	line-height: 1.5;
 }
+
+.formation-detail-title-section {
+	width: 100%;
+	background-image: url("../img/photo_code_html_2x.webp");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+
+.formation-detail-title {
+	color: $clr-secondary;
+	margin-top: 17.2rem;
+	margin-bottom: 17.2rem;
+}
+
