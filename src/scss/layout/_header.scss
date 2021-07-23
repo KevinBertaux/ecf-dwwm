@@ -4,12 +4,75 @@
 	background-color: $clr-accent;
 }
 
+.header {
+	position: relative;
+}
+
+.toggle-menu {
+	padding: 0.5rem 4rem;
+	color: $clr-secondary;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 0;
+	border-radius: 1rem;
+	margin-right: 2rem;
+	transition: 0.3s;
+}
+
+.toggle-menu:hover,
+.toggle-menu:focus {
+	background-color: $clr-transparent;
+}
+
+.menu {
+	position: absolute;
+	flex-direction: column;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background-color: $clr-accent;
+	transition: 0.5s;
+}
+
+.menu[hidden] {
+	display: block;
+	visibility: hidden;
+	transform: translateX(-100%);
+}
+
+.menu:not([hidden]) {
+	transform: translateX(0);
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.toggle-menu {
+		display: none;
+	}
+
+	.menu,
+	.menu[hidden] {
+		display: flex;
+		flex-direction: row;
+		visibility: visible;
+		position: static;
+		transform: translateX(0);
+	}
+}
+
 .site-nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 2.6rem;
-	padding-bottom: 2.6rem;
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.site-nav {
+		padding-top: 2.6rem;
+		padding-bottom: 2.6rem;
+	}
 }
 
 .logo-text {
@@ -20,7 +83,16 @@
 }
 
 .logo-link {
-	font-size: 4.8rem;
+	margin-left: 2rem;
+	font-size: 2.4rem;
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.logo-link {
+		margin-left: 0;
+		font-size: 4.8rem;
+	}
 }
 
 .logo-link:hover,
@@ -34,19 +106,29 @@
 	display: flex;
 }
 
-.nav-item {
-	font-weight: $fw-semi;
-	font-size: 2rem;
-	line-height: 1.2;
-	text-transform: uppercase;
-}
-
 .nav-link {
-	font-size: 2rem;
+	font-weight: $fw-semi;
+	text-transform: uppercase;
+	font-size: 1.6rem;
 	text-align: center;
-	padding: 1rem 2rem;
+	padding: .2rem 2rem;
+	margin: 1rem 0;
 	transition-property: color, background-color;
 	transition-duration: 0.3s;
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.nav-link {
+		padding: 1rem 2rem;
+	}
+}
+
+@media screen and (min-width: 75em) {
+	/* 1200px */
+	.nav-link {
+		font-size: 2rem;
+	}
 }
 
 .nav-link:hover,

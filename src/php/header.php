@@ -21,7 +21,8 @@
 					<a class="logo-link" href="index.php">DWWM</a>
 				</p>
 				<nav class="nav-menu">
-					<ul class="nav-list" role="list">
+				<button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+					<ul class="nav-list menu" role="list" hidden>
 						<li class="nav-item">
 							<a href="index.php" class="nav-link">Accueil</a>
 						</li>
