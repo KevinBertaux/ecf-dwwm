@@ -8,10 +8,10 @@
 				<a href="index.php" class="address-link">Développeur Web et Web Mobile</a>
 			</li>
 			<li class="address-item">
-				<a href="https://www.cefim.eu/" class="address-link" target="_blank">CEFIM</a>
+				<a href="https://www.cefim.eu/" class="address-link" target="_blank" rel="noreferrer">CEFIM</a>
 			</li>
 			<li class="address-item">
-				<a href="https://www.google.fr/maps/place/32+Avenue+Marcel+Dassault,+37200+Tours/@47.3632996,0.6792953,17z/data=!3m1!4b1!4m5!3m4!1s0x47fcd670d829437f:0x639fc6373a8edaba!8m2!3d47.363296!4d0.681484" class="address-link" target="_blank">32 Avenue Marcel Dassault<br>37200 Tours</a>
+				<a href="https://www.google.fr/maps/place/32+Avenue+Marcel+Dassault,+37200+Tours/@47.3632996,0.6792953,17z/data=!3m1!4b1!4m5!3m4!1s0x47fcd670d829437f:0x639fc6373a8edaba!8m2!3d47.363296!4d0.681484" class="address-link" target="_blank" rel="noreferrer">32 Avenue Marcel Dassault<br>37200 Tours</a>
 			</li>
 			<li class="address-item">
 				<a href="tel:+33247402680" class="address-link">T : 02 47 40 26 80</a>
@@ -31,13 +31,13 @@
 	<div class="social-network">
 		<ul class="social-list" role="list">
 			<li class="social-item">
-				<a href="https://www.facebook.com/" class="social-link"><img src="img/ico_facebook.svg" class="social-image" alt="Logo Facebook"></a>
+				<a href="https://www.facebook.com/" class="social-link" rel="noreferrer"><img src="img/ico_facebook.svg" class="social-image" alt="Logo Facebook"></a>
 			</li>
 			<li class="social-item">
-				<a href="https://twitter.com/" class="social-link"><img src="img/ico_twitter.svg" class="social-image" alt="Logo Twitter"></a>
+				<a href="https://twitter.com/" class="social-link" rel="noreferrer"><img src="img/ico_twitter.svg" class="social-image" alt="Logo Twitter"></a>
 			</li>
 			<li class="social-item">
-				<a href="https://www.linkedin.com/" class="social-link"><img src="img/ico_linkedin.svg" class="social-image" alt="Logo LinkedIn"></a>
+				<a href="https://www.linkedin.com/" class="social-link" rel="noreferrer"><img src="img/ico_linkedin.svg" class="social-image" alt="Logo LinkedIn"></a>
 			</li>
 		</ul>
 	</div>
