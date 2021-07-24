@@ -25,7 +25,7 @@ $title = 'Accueil'; ?>
 				<div class="news-content">
 					<div class="news-date">
 						<img src="img/ico_calendar.svg" alt="L'icone d'un calendrier" class="calendar">
-						<time class="news-date" datetime="2021-02-12">12/02/2021</time>
+						<time class="news-date-time" datetime="2021-02-12">12/02/2021</time>
 					</div>
 					<h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
 					<p class="news-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
@@ -37,7 +37,7 @@ $title = 'Accueil'; ?>
 				<div class="news-content">
 					<div class="news-date">
 						<img src="img/ico_calendar.svg" alt="L'icone d'un calendrier" class="calendar">
-						<time class="news-date" datetime="2021-02-12">12/02/2021</time>
+						<time class="news-date-time" datetime="2021-02-12">12/02/2021</time>
 					</div>
 					<h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
 					<p class="news-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
@@ -49,7 +49,7 @@ $title = 'Accueil'; ?>
 				<div class="news-content">
 					<div class="news-date">
 						<img src="img/ico_calendar.svg" alt="L'icone d'un calendrier" class="calendar">
-						<time class="news-date" datetime="2021-02-12">12/02/2021</time>
+						<time class="news-date-time" datetime="2021-02-12">12/02/2021</time>
 					</div>
 					<h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
 					<p class="news-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
