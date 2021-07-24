@@ -1,12 +1,13 @@
 .card {
 	border-radius: 0.4rem;
 	box-shadow: 0 0 4.8rem $clr-shadow;
-	transition-property: transform;
-	transition-duration: 0.3s;
+	transition-property: outline;
+	transition-duration: 0.2s;
 	max-width: 40.4rem;
 }
 
 .card:hover,
 .card:focus-within {
-	transform: scale(1.05);
+	outline: .4rem solid $clr-accent;
+	outline-offset: -.4rem;
 }

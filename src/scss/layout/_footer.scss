@@ -4,14 +4,14 @@
 	justify-items: center;
 	align-items: center;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-bottom: 1.6rem;
 }
 
 @media screen and (min-width: 36em) {
 	/* 576px */
 	.footer .container {
 		padding-top: 1.6rem;
-		padding-bottom: 1.6rem;
+		padding-bottom: 2.2rem;
 	}
 }
 
@@ -20,7 +20,7 @@
 	.footer .container {
 		grid-template-columns: repeat(2, 1fr);
 		padding-top: 2.2rem;
-		padding-bottom: 2.2rem;
+		padding-bottom: 3rem;
 	}
 }
 
@@ -28,7 +28,7 @@
 	/* 992px */
 	.footer .container {
 		padding-top: 3rem;
-		padding-bottom: 3rem;
+		padding-bottom: 3.4rem;
 	}
 }
 
