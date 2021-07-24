@@ -34,10 +34,38 @@
 }
 
 .container-narrow {
-	width: 105.6rem;
+	width: 20rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+@media screen and (min-width: 36em) {
+	/* 576px */
+	.container-narrow {
+		width: 43.2rem;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	/* 768px */
+	.container-narrow {
+		width: 62.4rem;
+	}
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.container-narrow {
+		width: 84.8rem;
+	}
+}
+
+@media screen and (min-width: 75em) {
+	/* 1200px */
+	.container-narrow {
+		width: 105.6rem;
+	}
 }
 
 .container-narrower {

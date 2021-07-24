@@ -8,7 +8,7 @@ body {
 h1,
 .h1-like {
 	font-family: $ff-title;
-	font-size: 2.2rem;
+	font-size: 2rem;
 	line-height: 1;
 }
 
@@ -132,14 +132,47 @@ a:focus {
 	text-decoration: underline;
 }
 
-label {
-	font-size: 2rem;
-	line-height: 1.5;
+label,
+[placeholder] {
+	font-size: 1.2rem;
+	line-height: 1;
 }
 
-[placeholder]::placeholder {
+@media screen and (min-width: 36em) {
+	/* 576px */
+	label,
+	[placeholder] {
+		font-size: 1.4rem;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	/* 768px */
+	label,
+	[placeholder] {
+		font-size: 1.6rem;
+		line-height: 1.2;
+	}
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	label,
+	[placeholder] {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (min-width: 75em) {
+	/* 1200px */
+	label,
+	[placeholder] {
+		font-size: 2rem;
+		line-height: 1.5;
+	}
+}
+
+[placeholder] {
 	font-style: italic;
-	font-size: 2rem;
-	line-height: 1.5;
 	color: $clr-placeholder;
 }

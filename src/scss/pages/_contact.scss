@@ -1,5 +1,33 @@
 .contact-title {
-	margin-bottom: 14rem;
+	margin-bottom: 6rem;
+}
+
+@media screen and (min-width: 36em) {
+	/* 576px */
+	.contact-title {
+		margin-bottom: 8rem;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	/* 768px */
+	.contact-title {
+		margin-bottom: 10rem;
+	}
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.contact-title {
+		margin-bottom: 12rem;
+	}
+}
+
+@media screen and (min-width: 75em) {
+	/* 1200px */
+	.contact-title {
+		margin-bottom: 14rem;
+	}
 }
 
 .contact-form {
@@ -19,8 +47,8 @@ input:hover,
 textarea:hover,
 input:focus,
 textarea:focus {
-	outline: .4rem solid $clr-accent;
-	outline-offset: .4rem;
+	outline: 0.4rem solid $clr-accent;
+	outline-offset: 0.4rem;
 }
 
 label,
@@ -45,13 +73,23 @@ textarea:focus {
 
 .field-list {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr;
 	gap: 4.5rem 3.2rem;
 	margin-bottom: 2rem;
 }
 
-.field-item:last-child {
-	grid-column: 1 / span 2;
+@media screen and (min-width: 48em) {
+	/* 768px */
+	.field-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 48em) {
+	/* 768px */
+	.field-item:last-child {
+		grid-column: 1 / span 2;
+	}
 }
 
 .contact-button {
@@ -66,7 +104,35 @@ textarea:focus {
 	text-decoration: underline;
 }
 
-.send-contact img{
-	width: 10rem;
+.send-contact img {
+	width: 5rem;
 	padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 36em) {
+	/* 576px */
+	.send-contact img {
+		width: 6rem;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	/* 768px */
+	.send-contact img {
+		width: 7rem;
+	}
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.send-contact img {
+		width: 8rem;
+	}
+}
+
+@media screen and (min-width: 75em) {
+	/* 1200px */
+	.send-contact img {
+		width: 10rem;
+	}
 }
