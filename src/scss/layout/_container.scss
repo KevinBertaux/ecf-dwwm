@@ -1,41 +1,48 @@
 .container {
-	width: 127.6rem;
+	width: 39.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .container-narrow {
 	width: 105.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .container-narrower {
 	width: 84rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-// Example de responsive
+@media screen and (min-width: 36em) {
+	/* 576px */
+	.container {
+		width: 65.2rem;
+	}
+}
 
-// @media screen and (min-width: 36em) {
-// 	/* 576px */
-// 	.container {
-// 		max-width: 53.6rem;
-// 	}
-// }
+@media screen and (min-width: 48em) {
+	/* 768px */
+	.container {
+		width: 84.4rem;
+	}
+}
 
-// @media screen and (min-width: 48em) {
-// 	/* 768px */
-// 	.container {
-// 		max-width: 72.8rem;
-// 	}
-// }
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.container {
+		width: 102.8rem;
+	}
+}
 
-// @media screen and (min-width: 62em) {
-// 	/* 992px */
-// 	.container {
-// 		max-width: 95.2rem;
-// 	}
-// }
-
-// @media screen and (min-width: 75em) {
-// 	/* 1200px */
-// 	.container {
-// 		max-width: 116rem;
-// 	}
-// }
+@media screen and (min-width: 75em) {
+	/* 1200px */
+	.container {
+		width: 127.6rem;
+	}
+}

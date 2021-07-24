@@ -8,6 +8,10 @@
 	position: relative;
 }
 
+.header .container {
+	align-items:stretch;
+}
+
 .toggle-menu {
 	padding: 0.5rem 4rem;
 	color: $clr-secondary;
@@ -26,6 +30,7 @@
 .menu {
 	position: absolute;
 	flex-direction: column;
+	
 	top: 100%;
 	left: 0;
 	right: 0;
