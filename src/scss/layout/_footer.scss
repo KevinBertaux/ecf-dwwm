@@ -1,9 +1,14 @@
 .footer .container {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
 	align-items: center;
 	padding-top: 3.8rem;
 	padding-bottom: 3.8rem;
+}
+
+.address {
+	justify-self: start;
 }
 
 .address-list {
@@ -31,9 +36,16 @@
 	line-height: 2.25;
 }
 
+
+.social-network {
+	justify-self: end;
+
+}
+
 .social-list {
 	display: flex;
 	column-gap: 5.6rem;
+	margin-right: 3.4rem;
 }
 
 .social-item {
