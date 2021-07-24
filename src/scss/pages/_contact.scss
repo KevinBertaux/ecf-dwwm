@@ -15,6 +15,14 @@ textarea {
 	display: block;
 }
 
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+	outline: .4rem solid $clr-accent;
+	outline-offset: .4rem;
+}
+
 label,
 [placeholder] {
 	padding-bottom: 1rem;
