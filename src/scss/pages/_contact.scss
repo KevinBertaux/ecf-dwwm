@@ -5,13 +5,14 @@
 .contact-form {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 input,
 label,
 textarea {
-	display: block;
 	width: 100%;
+	display: block;
 }
 
 label,
