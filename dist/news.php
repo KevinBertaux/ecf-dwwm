@@ -116,7 +116,7 @@ $title = 'Actualités'; ?>
 				<a href="news_detail.php" class="news-link btn">Lire la suite<img src="img/ico_arrow_right.svg" alt="Une icone de flèche vers la droite"></a>
 			</li>
 		</ul>
-		
+
 		<ul role="list" class="page-button-list">
 			<li class="page-button-item">
 				<a href="#" class="page-button-link page-btn">&lt;&lt;</a>

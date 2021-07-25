@@ -176,3 +176,8 @@ label,
 	font-style: italic;
 	color: $clr-placeholder;
 }
+
+.student-detail-item:last-child p {
+	font-family: $ff-body;
+	font-weight: $fw-body;
+}

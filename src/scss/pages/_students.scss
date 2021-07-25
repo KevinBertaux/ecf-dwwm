@@ -32,32 +32,53 @@ Malheureusement ":has" n'est pas implémenté (caniuse 0%).
 }
 
 .student-detail-image {
-	width: fit-content;
+	width: 90vw;
 	height: auto;
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@media screen and (min-width: 36em) {
+	/* 576px */
+	.student-detail-image {
+		width: fit-content;
+	}
+}
+
 .student-detail-name {
 	margin-bottom: 4rem;
 }
 
 .student-detail-list {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: 1fr;
 	column-gap: 3.6rem;
 }
 
-.student-detail-item:last-child {
-	grid-column: 1/-1;
+@media screen and (min-width: 36em) {
+	/* 576px */
+	.student-detail-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 62em) {
+	/* 992px */
+	.student-detail-list {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media screen and (min-width: 36em) {
+	/* 576px */
+	.student-detail-item:last-child {
+		grid-column: 1/-1;
+	}
 }
 
 .student-detail-item-title {
 	margin-top: 0;
 	margin-bottom: 2rem;
-}
-
-.student-detail-item:last-child p{
-	font-size: 2.4rem;
 }

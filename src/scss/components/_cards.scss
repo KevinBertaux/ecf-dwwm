@@ -8,6 +8,6 @@
 
 .card:hover,
 .card:focus-within {
-	outline: .4rem solid $clr-accent;
-	outline-offset: -.4rem;
+	outline: 0.4rem solid $clr-accent;
+	outline-offset: -0.4rem;
 }

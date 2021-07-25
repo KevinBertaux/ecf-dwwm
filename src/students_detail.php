@@ -45,7 +45,7 @@ $title = 'Étudiants'; ?>
 				</li>
 				<li class="student-detail-item">
 					<h2 class="student-detail-item-title h3-like">En deux mots</h2>
-					<p class="student-detail-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet.</p>
+					<p class="student-detail-item-desc h3-like">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet.</p>
 				</li>
 			</ul>
 		</div>

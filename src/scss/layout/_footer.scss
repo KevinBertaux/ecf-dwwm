@@ -198,7 +198,6 @@
 	}
 }
 
-
 .social-item {
 	display: flex;
 	align-items: center;
@@ -238,12 +237,13 @@
 	}
 }
 
-
 .social-link {
 	display: block;
 	width: 100%;
 }
 
+/*	border-radius me fait un beau rond sur l'outline avec Firefox
+	et un beau carré avec Chrome */
 .social-item:hover,
 .social-item:focus-within {
 	outline: 0.1rem solid $clr-secondary;
